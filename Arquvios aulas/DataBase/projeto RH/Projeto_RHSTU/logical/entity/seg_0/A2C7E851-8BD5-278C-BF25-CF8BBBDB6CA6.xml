@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2C7E851-8BD5-278C-BF25-CF8BBBDB6CA6" name="T_RHSTU_PAGAMENTO_CONSULTA">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:20:31 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA" id="F04BA7B1-CBC7-B74F-4320-182E8E90CB26">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:20:42 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FORMA_PAGAMENTO" id="25EF06FF-08E6-16E4-DA45-F8B40D23056C">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:21:24 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CARTEIRA" id="4A2ADFD1-719F-314C-3AF9-EC6B2055ED2F">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:22:04 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PLANO_SAUDE" id="DC6EFE0F-DD9D-BB62-E310-D5C420D5B15E">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:22:25 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FORMA_PAGAMENTO1" id="265409AA-21C7-AAB2-BEB7-D3F66D252BE1">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:48:48 UTC</createdTime>
+<generatorID>9B8DFBC3-F2B2-742F-C553-B712D8A44011</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>BFCA394D-7BED-CC5C-21C0-94CC8B216108</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="ADA5298A-DD07-AD96-DE9B-B4D82EF92188">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:49:28 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de início para atendimento do plano de saúde do cliente aceito na RHSTU. Seu conteúdo é opcional.]]></comment>
+<generatorID>1A6ECB3B-8C6B-84E1-38B8-0372C762630B</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>D804C1B6-E42C-AA60-291E-C9A4A25130BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="3A020E5D-BFA4-FA70-46EB-650E78919CF7">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:49:28 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>1A6ECB3B-8C6B-84E1-38B8-0372C762630B</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>18B11CFF-5EFC-EDDF-9930-33000698A15B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PLANO_SAUDE1" id="3903A752-B01C-B178-50B4-695EBF7CBB49">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:49:28 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do plano de saúde. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>1A6ECB3B-8C6B-84E1-38B8-0372C762630B</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>25547378-D14F-63D1-8360-DEEEF10939F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNIDADE" id="B5718192-BB2B-7DD4-A0C2-5166C7A1E26F">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:50:58 UTC</createdTime>
+<generatorID>93B91564-2FD4-4580-78D0-204B70492033</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>35902F9B-9A2C-4A63-BE14-2CE564207053</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE1" id="0AEA7A7A-4C62-0395-6EDA-4F5854AB2F3C">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:50:58 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>93B91564-2FD4-4580-78D0-204B70492033</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>1C6939B9-225A-7A3A-3D6C-FA2CE66F2264</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MEDICO" id="A6201A8E-EDF2-D67E-4BDB-340299C94652">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:50:58 UTC</createdTime>
+<generatorID>93B91564-2FD4-4580-78D0-204B70492033</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>1013AEEF-4637-273F-D12D-546255401391</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNIDADE1" id="CE4E0E47-6DB2-CC46-0305-EB026D3EA913">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:50:58 UTC</createdTime>
+<generatorID>93B91564-2FD4-4580-78D0-204B70492033</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>52A3895A-014B-7C6A-22EB-3E6FA084A4B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F656A1B0-11F6-1A8E-5C01-D442729BE764" name="T_RHSTU_PAGAMENTO_CONSULTA PK">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:20:45 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F04BA7B1-CBC7-B74F-4320-182E8E90CB26</attributeRef>
+<attributeRef>265409AA-21C7-AAB2-BEB7-D3F66D252BE1</attributeRef>
+<attributeRef>ADA5298A-DD07-AD96-DE9B-B4D82EF92188</attributeRef>
+<attributeRef>3A020E5D-BFA4-FA70-46EB-650E78919CF7</attributeRef>
+<attributeRef>3903A752-B01C-B178-50B4-695EBF7CBB49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

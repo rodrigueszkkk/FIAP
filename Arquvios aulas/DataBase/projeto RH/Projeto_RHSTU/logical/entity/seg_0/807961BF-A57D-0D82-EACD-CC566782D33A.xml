@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="807961BF-A57D-0D82-EACD-CC566782D33A" name="T_RHSTU_CONSULTA_MEDICA">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:34:49 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_UNIDADE" id="35902F9B-9A2C-4A63-BE14-2CE564207053">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:35:00 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="1C6939B9-225A-7A3A-3D6C-FA2CE66F2264">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:41:30 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>BB59F02C-FA37-676D-D283-499325764B28</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>15A097FF-A07C-398B-0F86-D42FFB66F5C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MEDICO" id="1013AEEF-4637-273F-D12D-546255401391">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:43:17 UTC</createdTime>
+<generatorID>CC8FA167-550A-7A67-6D42-CD726DEB6ABC</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>24D72012-EE5E-F83E-756A-501F9A3F9ECF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNIDADE1" id="52A3895A-014B-7C6A-22EB-3E6FA084A4B0">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:47:24 UTC</createdTime>
+<generatorID>9836D1EE-4DFE-6CFF-54E0-CDCAAB902B42</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>53F42881-51D7-9851-1869-7846F8617E02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEAFED57-6AA4-83EF-6B34-410D73E8FA14" name="T_RHSTU_CONSULTA_MEDICA PK">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-01 23:35:09 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35902F9B-9A2C-4A63-BE14-2CE564207053</attributeRef>
+<attributeRef>1C6939B9-225A-7A3A-3D6C-FA2CE66F2264</attributeRef>
+<attributeRef>1013AEEF-4637-273F-D12D-546255401391</attributeRef>
+<attributeRef>52A3895A-014B-7C6A-22EB-3E6FA084A4B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

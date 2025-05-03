@@ -1,0 +1,30 @@
+body{
+    background: color #fffff0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif, monospace;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    text-decoration: underline overline;
+    text-shadow: 3px, 1px, 2px #000;
+} 
+
+.paragrafo {
+    color: #1e90ff;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+#sub-2 {
+    color: blueviolet;
+    text-decoration: overline;
+}
+
+span {
+    font-weight: bold;
+}

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBD371F1-809D-26B0-6197-899BDEBFBA73" name="T_VB_PEDIDO_VENDA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:38:27 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_PEDIDO" id="C0FCD02C-EF44-FD15-B18B-C86201712906">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:39:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[referente ao numero que o pedido se enquadra]]></commentInRDBMS>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_EMISSAO" id="F13C3C2A-7A5C-8F14-C7F9-FE4DDAEBD137">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:41:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[data de emisao da venda, do cupom fiscal]]></commentInRDBMS>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ATENDENTE" id="1E387032-8C29-9653-FC21-0A4DD70FC9C2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:41:51 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PAGAMENTO" id="67CEE396-5657-3BCF-F6F3-62769DF0CA2D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:44:59 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="0D6A477E-B02F-1EE0-4C34-64CEBBEDAAD1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:48:37 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_PESSOAS" id="69CBBE10-0795-24F8-F5FC-18FC954A4306">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:49:47 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FECHAMENTO" id="21A4DEBB-99F9-2A23-E554-DD92B438201B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:50:07 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTABELECIMENTO" id="64CBED6E-2979-5D41-7E9A-7C0802C3C66B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:50:58 UTC</createdTime>
+<generatorID>813B647A-5903-5483-A579-D5AC8FD764B6</generatorID>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<referedAttribute>BF2ED4A4-683B-54DA-DB9F-E668F0213B0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17C64B32-8591-7A45-8DB3-6003A3CBCF9C" name="T_VB_PEDIDO_VENDA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:40:04 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0FCD02C-EF44-FD15-B18B-C86201712906</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

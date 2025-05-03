@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C123F13C-78CB-AD46-D720-B21C303510DF" name="T_VB_ESTABELECIMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 00:34:58 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESTABELECIMENTO" id="BF2ED4A4-683B-54DA-DB9F-E668F0213B0A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 00:36:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador do estabelecimento, sera a chave primaria da entidade]]></commentInRDBMS>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_RAZAO_SOCIAL" id="147EA947-801B-8BA2-6B9A-2172AF08F868">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 00:41:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Razao social do estabelecimento, esse atributo e obrigatorio]]></commentInRDBMS>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CNPJ" id="5100B291-5AD1-0ED9-07EC-7167A0688020">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 00:51:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cadastro Nacional de Pessoa Juridica, seu conteudo e obrigatorio]]></commentInRDBMS>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_IE" id="625734EB-C4D3-4D08-C8C9-DB663D28854B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 00:56:19 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ENDERECO" id="94150586-4800-7FAF-2C5B-D88A0E297DF9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:00:32 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE_EMPRESA" id="5E8B9094-57A9-F6F6-371D-FA3893F30330">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:02:22 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NUMERO_MESA" id="273AACF0-4E8A-B5F7-409A-2EBD5DFC37D6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:04:27 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_MESA" id="6671155A-9938-8A85-317C-677AD2799DCF">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-04-03 19:27:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Define o numero da mesas]]></commentInRDBMS>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7197C292-3E46-FFFB-3543-C2BE022184CB" name="T_VB_ESTABELECIMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 00:41:33 UTC</createdTime>
+<ownerDesignName>exec</ownerDesignName>
+<engineerTo>
+<item key="1784DD84-F6A6-B297-8FD1-730793EA1C3F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF2ED4A4-683B-54DA-DB9F-E668F0213B0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

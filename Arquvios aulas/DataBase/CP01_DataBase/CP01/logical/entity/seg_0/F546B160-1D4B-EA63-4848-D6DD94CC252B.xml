@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F546B160-1D4B-EA63-4848-D6DD94CC252B" name="HP_CONT_EMER">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:05:45 UTC</createdTime>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CE_NOME" id="86EC5CBF-E001-300E-3B94-3D190449552D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:06:04 UTC</createdTime>
+<comment><![CDATA[Armazena o nome do contato de emergencia ]]></comment>
+<commentInRDBMS><![CDATA[Armazena o nome do contato de emergencia ]]></commentInRDBMS>
+<notes><![CDATA[Armazena o nome do contato de emergencia ]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PC_CPF" id="845D7198-1866-19F8-05F5-B9E355C0340C">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-04-11 21:00:49 UTC</createdTime>
+<comment><![CDATA[Armazena CPF do paciente]]></comment>
+<generatorID>4D6AD2D2-2EF3-BC67-1DF2-A89649A12D87</generatorID>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<referedAttribute>0C49B2AE-3A53-51BF-2EDD-EC00B4F51EF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CE_TELEFONE" id="C55996DB-F1C3-02EE-AA76-EA8470FADE54">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:06:43 UTC</createdTime>
+<comment><![CDATA[Armazena o telefone do conta de emergencia]]></comment>
+<commentInRDBMS><![CDATA[Armazena o telefone do conta de emergencia]]></commentInRDBMS>
+<notes><![CDATA[Armazena o telefone do conta de emergencia]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CE_TIPO_CONTATO" id="1D3D72AC-551D-A8A6-8F2E-23EEC7BBD750">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:07:06 UTC</createdTime>
+<comment><![CDATA[Armazena o tipo de contato de emergencia]]></comment>
+<commentInRDBMS><![CDATA[Armazena o tipo de contato de emergencia]]></commentInRDBMS>
+<notes><![CDATA[Armazena o tipo de contato de emergencia]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D553712-E862-A5DC-D74C-6B97087B0F0B" name="HP_CONT_EMER PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:07:58 UTC</createdTime>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86EC5CBF-E001-300E-3B94-3D190449552D</attributeRef>
+<attributeRef>845D7198-1866-19F8-05F5-B9E355C0340C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

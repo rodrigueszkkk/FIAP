@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="211E3558-CF37-F1AB-4E16-CCB8B75DBC05" name="HP_PACIENTE_PLANO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:31:07 UTC</createdTime>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PC_CPF" id="9C671E71-B3A3-0A69-6855-A927531071B8">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-04-11 20:57:12 UTC</createdTime>
+<comment><![CDATA[Armazena CPF do paciente]]></comment>
+<generatorID>E5B57A60-4700-D193-D9E5-9AAC80B75086</generatorID>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<referedAttribute>0C49B2AE-3A53-51BF-2EDD-EC00B4F51EF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PLANO" id="EF65FC47-A2CD-CDD1-4FCB-9E1A47B2E6A6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:47:27 UTC</createdTime>
+<comment><![CDATA[Identifica o ID do plano]]></comment>
+<commentInRDBMS><![CDATA[Identifica o ID do plano]]></commentInRDBMS>
+<notes><![CDATA[Identifica o ID do plano]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PS_CNPJ" id="58639A94-D0C7-7707-5150-8F3D9FB13E7F">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-04-11 21:00:17 UTC</createdTime>
+<generatorID>608FF85A-BCF9-FE96-6DD4-B6EA651474A5</generatorID>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<referedAttribute>AA7BB1AE-6004-940E-CB02-68BB49CEFA9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PL_STATUS" id="CBFDB3EF-A7D6-BA74-CCC3-482E5FABF9FC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:48:24 UTC</createdTime>
+<comment><![CDATA[Indica o status atual do plano de saude]]></comment>
+<commentInRDBMS><![CDATA[Indica o status atual do plano de saude]]></commentInRDBMS>
+<notes><![CDATA[Indica o status atual do plano de saude]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_PLANO" id="48E8001C-58A6-BCE5-F459-348F867F1725">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:49:25 UTC</createdTime>
+<comment><![CDATA[Indica o tipo do plano do paciente]]></comment>
+<commentInRDBMS><![CDATA[Indica o tipo do plano do paciente]]></commentInRDBMS>
+<notes><![CDATA[Indica o tipo do plano do paciente]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="B054F33B-364C-5C3E-CC89-368B569AB4BB">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-04-11 20:52:54 UTC</createdTime>
+<comment><![CDATA[Define a data de inicio do programa]]></comment>
+<commentInRDBMS><![CDATA[Define a data de inicio do programa]]></commentInRDBMS>
+<notes><![CDATA[Define a data de inicio do programa]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TERMINO" id="14D77E9C-E41E-6133-5E1C-ABF9DB1557D2">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-04-11 20:53:08 UTC</createdTime>
+<comment><![CDATA[Define a data de termino do programa]]></comment>
+<commentInRDBMS><![CDATA[Define a data de termino do programa]]></commentInRDBMS>
+<notes><![CDATA[Define a data de termino do programa]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47B04201-0B41-D7B9-64D4-7949123DCC88" name="HP_PACIENTE_PLANO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:47:57 UTC</createdTime>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF65FC47-A2CD-CDD1-4FCB-9E1A47B2E6A6</attributeRef>
+<attributeRef>9C671E71-B3A3-0A69-6855-A927531071B8</attributeRef>
+<attributeRef>58639A94-D0C7-7707-5150-8F3D9FB13E7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

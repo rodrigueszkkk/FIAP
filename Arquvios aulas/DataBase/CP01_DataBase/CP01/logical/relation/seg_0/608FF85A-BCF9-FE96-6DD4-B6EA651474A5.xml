@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PLANO_PACIENTE" directorySegmentName="seg_0" id="608FF85A-BCF9-FE96-6DD4-B6EA651474A5">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-04-11 21:00:17 UTC</createdTime>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<sourcePk>EC35B781-58B4-631D-4F98-E3AFB2A57D1E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F5CD2D16-BD96-3F56-9E8A-0DD70DE3F76E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>211E3558-CF37-F1AB-4E16-CCB8B75DBC05</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

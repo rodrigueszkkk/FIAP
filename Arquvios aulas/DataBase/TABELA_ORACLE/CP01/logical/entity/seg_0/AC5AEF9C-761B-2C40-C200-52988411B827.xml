@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC5AEF9C-761B-2C40-C200-52988411B827" name="HP_ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:08:23 UTC</createdTime>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EN_NUM_LOGRADOURO" id="AA9B8977-899D-8F88-392F-4536127F0866">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:11:33 UTC</createdTime>
+<comment><![CDATA[Armazena o numero de logradouro de endereco]]></comment>
+<commentInRDBMS><![CDATA[Armazena o numero de logradouro de endereco]]></commentInRDBMS>
+<notes><![CDATA[Armazena o numero de logradouro de endereco]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PC_CPF" id="C8050C87-0321-02CA-6035-483C10947EFD">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-04-11 20:59:43 UTC</createdTime>
+<comment><![CDATA[Armazena CPF do paciente]]></comment>
+<generatorID>C7D01B7E-7C35-7963-3F1A-56E7A088C4D9</generatorID>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<referedAttribute>0C49B2AE-3A53-51BF-2EDD-EC00B4F51EF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EN_NOME_LOGRADOURO" id="C67CEB4C-4557-8F11-A365-8EA839DA0AC0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:08:42 UTC</createdTime>
+<comment><![CDATA[Armazena o nome do logradouro de endereco]]></comment>
+<commentInRDBMS><![CDATA[Armazena o nome do logradouro ]]></commentInRDBMS>
+<notes><![CDATA[Armazena o nome do logradouro ]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EN_BAIRRO" id="B8A70813-413D-7352-BA18-B6408DABDA90">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:09:28 UTC</createdTime>
+<comment><![CDATA[Armazena o Bairro de endereco]]></comment>
+<commentInRDBMS><![CDATA[Armazena o Bairro de endereço]]></commentInRDBMS>
+<notes><![CDATA[Armazena o Bairro de endereço]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EN_CIDADE" id="C682E6E8-CC0C-5B66-0CE9-88958C571E02">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:10:22 UTC</createdTime>
+<comment><![CDATA[Armazena o noma da cidade de endereco]]></comment>
+<commentInRDBMS><![CDATA[Armazena o noma da cidade de endereco]]></commentInRDBMS>
+<notes><![CDATA[Armazena o noma da cidade de endereco]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EN_CEP" id="34D438F3-2ACE-8E06-D503-119CD5DE1500">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:10:54 UTC</createdTime>
+<comment><![CDATA[Armazena o cep de endereco]]></comment>
+<commentInRDBMS><![CDATA[Armazena o cep de endereco]]></commentInRDBMS>
+<notes><![CDATA[Armazena o cep de endereco]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EN_PONTO_REFERENCIA" id="DAFEA1D8-CC15-96DC-ECD3-F82B24474A5C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:12:46 UTC</createdTime>
+<comment><![CDATA[Armazena o pronto de referencia de endereco]]></comment>
+<commentInRDBMS><![CDATA[Armazena o pronto de referencia de endereco]]></commentInRDBMS>
+<notes><![CDATA[Armazena o pronto de referencia de endereco]]></notes>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="284F6EA4-0F7D-466F-E9F3-644DB6E2CB10" name="HP_ENDERECO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:12:32 UTC</createdTime>
+<ownerDesignName>CP01</ownerDesignName>
+<engineerTo>
+<item key="C786D898-9BF4-144D-15A3-F74D3D836287" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA9B8977-899D-8F88-392F-4536127F0866</attributeRef>
+<attributeRef>C8050C87-0321-02CA-6035-483C10947EFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
