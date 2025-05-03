@@ -1,0 +1,46 @@
+* {
+    box-shadow: none;
+}
+body {
+    background-color: darkgray;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 2px white;
+    text-decoration: underline black;
+}
+
+.sport h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    text-decoration: underline azure;
+}
+.sport {
+    background-color: purple;
+    border-radius: 20px;
+}
+.sport p {
+    color: white;
+    text-decoration: underline black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px
+}
+
+.bussines h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline ;
+}
+
+.bussines {
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.bussines p{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
