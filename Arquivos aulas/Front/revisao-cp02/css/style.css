@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 .nav-container{
@@ -46,19 +48,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .form-container form{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     border: #1f1f1f 2px solid;
-    padding: 5px;
+    padding: 10px;
+    gap: 10px;
 }
 
 .form-container form div{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+}
+
+.btn-enviar {
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-enviar:hover {
+    background-color: #fff;
+    color: #1f1f1f;
+    transition: 0.3s;
+    border: #1f1f1f 1px solid;
 }
 
