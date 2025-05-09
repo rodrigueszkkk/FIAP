@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7DFE544-DB2B-E951-8778-95C2ADFD1BF7" name="T_RHSTU_PRESCRICAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-09 01:37:14 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_MEDICAMENTO" id="2154BC5B-794E-827A-51D2-C73DC878EC64">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-09 01:38:16 UTC</createdTime>
+<generatorID>3AECD8CE-866E-4812-3B2C-D81D66D1278D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>35817B8F-807C-569A-ADCB-59629569A3FC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_DOSAGEM" id="A6F660E6-802D-BF68-F326-E0117DF8B565">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-09 01:38:16 UTC</createdTime>
+<generatorID>3AECD8CE-866E-4812-3B2C-D81D66D1278D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>F7FCD77C-6DAE-1708-84D1-485A33730ED9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_MEDICAMENTO1" id="155C2E77-675F-BE1B-DC67-22CE31DA3521">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-09 01:38:16 UTC</createdTime>
+<generatorID>3AECD8CE-866E-4812-3B2C-D81D66D1278D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>89997426-1B1E-C7B5-0335-E50BB07EF6E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>80</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_MEDICO" id="BFEB3B75-147C-D4D9-65CD-3ADB313FF9B9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-09 01:42:43 UTC</createdTime>
+<generatorID>60E6F22E-FF38-24C8-19B5-3A7A1A47F262</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>1B9CB403-E629-65E7-585F-DA2527A66279</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CRM" id="533F262D-BD09-46BF-A33F-C929470AF078">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-09 01:43:23 UTC</createdTime>
+<generatorID>60E6F22E-FF38-24C8-19B5-3A7A1A47F262</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>4DF2C6EE-69D0-134A-D06B-0D24B5EF3009</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="124DF699-8D0D-F896-F304-841CE34D38CE" name="T_RHSTU_PRESCRICAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-09 01:38:16 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2154BC5B-794E-827A-51D2-C73DC878EC64</attributeRef>
+<attributeRef>A6F660E6-802D-BF68-F326-E0117DF8B565</attributeRef>
+<attributeRef>155C2E77-675F-BE1B-DC67-22CE31DA3521</attributeRef>
+<attributeRef>BFEB3B75-147C-D4D9-65CD-3ADB313FF9B9</attributeRef>
+<attributeRef>533F262D-BD09-46BF-A33F-C929470AF078</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

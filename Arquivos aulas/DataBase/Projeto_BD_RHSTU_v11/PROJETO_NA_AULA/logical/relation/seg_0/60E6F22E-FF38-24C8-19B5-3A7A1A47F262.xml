@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PK_STU_MEDICO_PRESCRICAO" directorySegmentName="seg_0" id="60E6F22E-FF38-24C8-19B5-3A7A1A47F262">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-09 01:42:43 UTC</createdTime>
+<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>42357FD1-4EB3-2628-0F66-ABEEA687B1EC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F477709-1835-BF78-2C6F-0805B23D6DDF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7DFE544-DB2B-E951-8778-95C2ADFD1BF7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
