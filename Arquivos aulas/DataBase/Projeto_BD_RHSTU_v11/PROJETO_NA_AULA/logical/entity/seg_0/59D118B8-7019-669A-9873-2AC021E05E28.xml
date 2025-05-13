@@ -130,6 +130,35 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CD_MEDICO" id="E33F2F53-D1B4-796D-E574-EB62B88EBD70">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-11 01:59:38 UTC</createdTime>
+<generatorID>A0FB73A1-88E6-4FBA-DFED-E3093E46A5B6</generatorID>
+<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>5C85C645-A4A5-7461-7C3B-101AB80C48A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CRM" id="E162FCE4-ECA2-F8E5-8036-555FFFEFD505">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-11 01:59:38 UTC</createdTime>
+<generatorID>A0FB73A1-88E6-4FBA-DFED-E3093E46A5B6</generatorID>
+<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>6CE06237-0516-D49A-70C5-0FD769297705</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="668CF5F0-C569-ACDC-0D79-CEF91E54611E" name="PK_STU_CONSULTA_FORMA_PAGTO">

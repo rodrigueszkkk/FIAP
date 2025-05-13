@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PK_CONSULTA_PRESCRICAO" directorySegmentName="seg_0" id="00D1C318-018D-D90C-B18C-B5BCBAB7A8B9">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-10 23:54:43 UTC</createdTime>
+<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>94012AC5-2823-C905-42C8-C02D1BAAFCE4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>31723517-2989-D028-7B9E-D4C226A4767D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7DFE544-DB2B-E951-8778-95C2ADFD1BF7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

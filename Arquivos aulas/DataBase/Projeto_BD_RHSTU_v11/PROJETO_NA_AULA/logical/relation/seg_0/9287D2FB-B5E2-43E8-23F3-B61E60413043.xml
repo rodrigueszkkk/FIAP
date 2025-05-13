@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_STU_MED_CONSULTA" directorySegmentName="seg_0" id="9287D2FB-B5E2-43E8-23F3-B61E60413043">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-11 01:59:38 UTC</createdTime>
+<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>42357FD1-4EB3-2628-0F66-ABEEA687B1EC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F477709-1835-BF78-2C6F-0805B23D6DDF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31723517-2989-D028-7B9E-D4C226A4767D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

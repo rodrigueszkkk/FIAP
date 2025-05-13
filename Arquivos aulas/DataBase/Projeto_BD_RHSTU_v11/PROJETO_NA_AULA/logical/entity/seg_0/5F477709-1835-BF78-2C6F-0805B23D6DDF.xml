@@ -28,20 +28,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_MEDICO" id="9F8A8943-EB44-C4BB-BB3B-CAF1874252E0">
-<createdBy>logonpflocal</createdBy>
-<createdTime>2022-04-29 12:55:52 UTC</createdTime>
-<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
-<importedID>7357E003-C7EA-6220-9084-1BF1427775D8</importedID>
-<engineerTo>
-<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>90</dataTypeSize>
-<ownDataTypeParameters>90,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="NR_CRM" id="4DF2C6EE-69D0-134A-D06B-0D24B5EF3009">
 <createdBy>logonpflocal</createdBy>
 <createdTime>2022-04-29 12:55:52 UTC</createdTime>
@@ -55,6 +41,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_MEDICO" id="9F8A8943-EB44-C4BB-BB3B-CAF1874252E0">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
+<importedID>7357E003-C7EA-6220-9084-1BF1427775D8</importedID>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DS_ESPECIALIDADE" id="2EAED291-978F-DBE1-D669-D125320D27BB">
 <createdBy>logonpflocal</createdBy>

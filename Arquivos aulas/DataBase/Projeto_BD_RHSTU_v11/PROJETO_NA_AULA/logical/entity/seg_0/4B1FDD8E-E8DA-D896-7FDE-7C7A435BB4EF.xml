@@ -15,21 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CD_MEDICAMENTO" id="89997426-1B1E-C7B5-0335-E50BB07EF6E5">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-09 01:36:01 UTC</createdTime>
-<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
-<engineerTo>
-<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>80</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,80,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NM_DOSAGEM" id="F7FCD77C-6DAE-1708-84D1-485A33730ED9">
+<Attribute name="NM_MEDICAMENTO" id="F7FCD77C-6DAE-1708-84D1-485A33730ED9">
 <createdBy>labsfiap</createdBy>
 <createdTime>2025-05-09 01:30:04 UTC</createdTime>
 <ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
@@ -42,32 +28,6 @@
 <dataTypeSize>80</dataTypeSize>
 <ownDataTypeParameters>80,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TP_VIA" id="6CBC2314-5BAB-6C1E-15CB-5B0D69691C03">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-09 01:31:36 UTC</createdTime>
-<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
-<engineerTo>
-<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>80</dataTypeSize>
-<ownDataTypeParameters>80,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DS_ORIENTA_USO" id="6C36EB98-85EE-1B18-CF81-3FB9C3EE75AD">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-09 01:32:48 UTC</createdTime>
-<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
-<engineerTo>
-<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BDF201C1-C517-8B3E-5D02-0641B04EDC6A" name="T_RHSTU_MEDICAMENTO PK">
@@ -79,9 +39,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>35817B8F-807C-569A-ADCB-59629569A3FC</attributeRef>
 <attributeRef>F7FCD77C-6DAE-1708-84D1-485A33730ED9</attributeRef>
-<attributeRef>89997426-1B1E-C7B5-0335-E50BB07EF6E5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

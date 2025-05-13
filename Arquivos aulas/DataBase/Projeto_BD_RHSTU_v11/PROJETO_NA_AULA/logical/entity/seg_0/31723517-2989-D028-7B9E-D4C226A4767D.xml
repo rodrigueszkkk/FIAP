@@ -61,20 +61,6 @@
 <dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_MEDICO" id="4ADC3A8B-EDCB-8300-F9D5-2595EE930581">
-<createdBy>logonpflocal</createdBy>
-<createdTime>2022-04-29 12:58:54 UTC</createdTime>
-<generatorID>D2E39926-C7CB-40C3-CCFE-0A79C9A7B3BB</generatorID>
-<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
-<engineerTo>
-<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
-</engineerTo>
-<referedAttribute>1B9CB403-E629-65E7-585F-DA2527A66279</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="DT_HR_CONSULTA" id="E984FC82-E115-71C8-5FDA-85BB1A35804F">
 <createdBy>logonpflocal</createdBy>
 <createdTime>2022-04-29 12:55:52 UTC</createdTime>
@@ -102,10 +88,24 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_CRM" id="1676D26E-36FC-A48C-A787-8EE4355F1B58">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-09 01:43:23 UTC</createdTime>
-<generatorID>D2E39926-C7CB-40C3-CCFE-0A79C9A7B3BB</generatorID>
+<Attribute name="CD_MEDICO" id="5C85C645-A4A5-7461-7C3B-101AB80C48A6">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-11 01:59:38 UTC</createdTime>
+<generatorID>9287D2FB-B5E2-43E8-23F3-B61E60413043</generatorID>
+<ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>1B9CB403-E629-65E7-585F-DA2527A66279</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CRM" id="6CE06237-0516-D49A-70C5-0FD769297705">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-11 01:59:38 UTC</createdTime>
+<generatorID>9287D2FB-B5E2-43E8-23F3-B61E60413043</generatorID>
 <ownerDesignName>PROJETO_NA_AULA</ownerDesignName>
 <engineerTo>
 <item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
@@ -127,10 +127,12 @@
 <item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>4DC2BBD4-5844-F984-AA0B-B83576D7F211,A13A1EBB-693F-9AEF-C9E5-3E59D154F9D3</newElementsIDs>
+<newElementsIDs>4DC2BBD4-5844-F984-AA0B-B83576D7F211,A13A1EBB-693F-9AEF-C9E5-3E59D154F9D3,9287D2FB-B5E2-43E8-23F3-B61E60413043</newElementsIDs>
 <usedAttributes>
 <attributeRef>4DC2BBD4-5844-F984-AA0B-B83576D7F211</attributeRef>
 <attributeRef>B6C488CB-AE82-A793-0536-0FCACEBB3861</attributeRef>
+<attributeRef>5C85C645-A4A5-7461-7C3B-101AB80C48A6</attributeRef>
+<attributeRef>6CE06237-0516-D49A-70C5-0FD769297705</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
