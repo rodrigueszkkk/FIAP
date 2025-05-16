@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="CFE7F645-C0F1-31E2-91F7-5F5C6354B061" name="Arc_1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-16 01:45:06 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<entity>4E669F69-BDAD-1338-53E6-A52CD1549F1D</entity>
+<relations>
+<relationID>D14DBE95-E41F-2DF6-CBA0-D613DB3BB024</relationID>
+<relationID>D297E4AC-E982-AE4A-ABB3-1E31677F3533</relationID>
+<relationID>C324EB54-6D6F-8134-7F12-43B15615EF1F</relationID>
+<relationID>6BDFD379-AB2E-76F7-504F-ECB555BFCA8A</relationID>
+</relations>
+</Arc>
