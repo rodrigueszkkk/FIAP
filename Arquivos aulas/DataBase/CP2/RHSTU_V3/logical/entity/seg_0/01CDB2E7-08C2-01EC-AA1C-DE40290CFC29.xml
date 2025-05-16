@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01CDB2E7-08C2-01EC-AA1C-DE40290CFC29" name="PIX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-16 01:37:44 UTC</createdTime>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FORMA_PAGTO" id="F12C3C9D-6B03-21A4-AB2D-0E18B54BFAC6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-16 01:43:49 UTC</createdTime>
+<generatorID>6BDFD379-AB2E-76F7-504F-ECB555BFCA8A</generatorID>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>4E218399-9591-8C64-43AD-E05DDEC8D090</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TRANSACAO" id="8514A2B2-D929-50C0-DF2F-4999DD0C1813">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-16 01:39:24 UTC</createdTime>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>80</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,80,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TRANSACAO" id="078FE9E6-07A8-4F59-73EE-A291A09FB008">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-16 01:39:42 UTC</createdTime>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PIX" id="28ADD8BB-AAC1-3DAB-FE61-DD55C61AF57E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-16 01:39:52 UTC</createdTime>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D56DBE1F-8F40-2DBD-CBB4-9FC3A0B625E2" name="PIX PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-16 01:45:52 UTC</createdTime>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F12C3C9D-6B03-21A4-AB2D-0E18B54BFAC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
