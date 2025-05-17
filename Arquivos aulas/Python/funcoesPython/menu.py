@@ -28,4 +28,5 @@ elif opcao == 4:
             if b != 0:
                 print(a / b)
             else:
-                prnt('Divisao por zero!')
+                print('Divisao por zero!')
+
