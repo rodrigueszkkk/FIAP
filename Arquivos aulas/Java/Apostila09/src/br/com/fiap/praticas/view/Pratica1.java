@@ -9,13 +9,27 @@ import java.util.Scanner;
 public class Pratica1 {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
 
-        Carro carro = new Carro();
+        Carro carro = new Carro("uou");
         Aviao aviao = new Aviao();
         Lancha lancha = new Lancha();
 
-        carro.set
 
-    }
-}
+        System.out.println("Quais dos veiculos abaixo gostaria de cadastrar?");
+        System.out.println("\n 1- Carro \n 2- Aviao \n 3- lancha");
+
+        int opcao = leitor.nextInt();
+
+            if (opcao == 1){
+            System.out.println("Qual o modelo?");
+            carro.setModelo(leitor.nextLine());
+            System.out.println("Qual a placa do veiculo?");
+            carro.setPlaca(leitor.nextLine());
+
+
+
+
+            }
+
+}}

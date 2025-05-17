@@ -6,6 +6,10 @@ public class Carro extends praticaModel{
     private float motor = 1;
 
 
+    public Carro(String modelo){
+        super(modelo);
+    }
+
     public int getQuantidadePortas() {
         return quantidadePortas;
     }
