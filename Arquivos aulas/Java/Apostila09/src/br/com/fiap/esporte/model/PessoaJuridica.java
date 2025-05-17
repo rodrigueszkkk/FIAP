@@ -5,6 +5,14 @@ public class PessoaJuridica extends Pessoa {
     private String razaoSocial;
     private double faturamento;
 
+    public PessoaJuridica(String nome){
+        super(nome);
+    }
+    public PessoaJuridica(String nome, String cnpj){
+        super(nome);
+        this.cnpj = cnpj;
+    }
+
     public String getCnpj() {
         return cnpj;
     }
