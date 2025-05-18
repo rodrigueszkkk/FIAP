@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PK_PAGAMENTO_DEBITO" directorySegmentName="seg_0" id="586DB4F3-0113-1209-E5EE-CA8F283AB747">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 01:32:44 UTC</createdTime>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>668CF5F0-C569-ACDC-0D79-CEF91E54611E</sourcePk>
+<arc>59B20ADD-3F40-71A2-5CC6-C9EBF9D308AC</arc>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59D118B8-7019-669A-9873-2AC021E05E28</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4F5D6485-DF53-32DB-82E8-E0CE26671FC3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

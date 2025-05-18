@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PK_PIX" directorySegmentName="seg_0" id="261A23B7-9BA7-1C64-639A-9A056BB7FEC3">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 01:32:54 UTC</createdTime>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>668CF5F0-C569-ACDC-0D79-CEF91E54611E</sourcePk>
+<arc>59B20ADD-3F40-71A2-5CC6-C9EBF9D308AC</arc>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59D118B8-7019-669A-9873-2AC021E05E28</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>01CDB2E7-08C2-01EC-AA1C-DE40290CFC29</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

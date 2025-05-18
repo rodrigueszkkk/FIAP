@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50651159-B5C8-D54E-723B-900F2C8F42F9" name="T_RHSTU_BASE_ENDERECO">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 02:11:38 UTC</createdTime>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="C08D541C-4801-E908-F011-3B8F2EDB7FDF">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 02:30:52 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do endereco do paciente. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>33450D44-C1FB-5019-D4F5-E23D4B4B0D3C</generatorID>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>32EBDEEA-5BBC-83EB-392C-36D4A70E330E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_LOGRADOURO" id="4F01E01C-54CA-AAC6-25A6-8A079ED58FEB">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 02:25:29 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o logradouro do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o logradouro do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>8BCC4E83-DAA8-181A-7DE9-422F9A8742E1</generatorID>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="F20A843B-6533-689A-4A27-F28EBE91F2F3">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 02:25:29 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do Bairro do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do Bairro do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="2E1C0CE3-3D95-684C-7EBD-4F5B5628C905">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 02:25:29 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da Cidade do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da Cidade do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO" id="C1A3F6C9-A8FE-C105-FB0F-30EA334BD745">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 02:25:29 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do Estado  do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do Estado  do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="BF0B775A-5D41-CC5E-F7F8-9E8E54EEE60F">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 02:25:29 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a sigla do Estado  do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a sigla do Estado  do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

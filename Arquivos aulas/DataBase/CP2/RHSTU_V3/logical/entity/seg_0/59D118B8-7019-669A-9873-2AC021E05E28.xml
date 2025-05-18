@@ -74,21 +74,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_FORMA_PAGTO" id="C59846D1-F01F-E630-E8DB-297DF9A0D1EC">
-<createdBy>Gustavo Padlipskas</createdBy>
-<createdTime>2022-04-30 12:12:10 UTC</createdTime>
-<generatorID>33B1FD0C-37C4-29F6-FEE9-93488DD3F096</generatorID>
-<ownerDesignName>RHSTU_V3</ownerDesignName>
-<engineerTo>
-<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>4E218399-9591-8C64-43AD-E05DDEC8D090</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="DT_CADASTRO" id="7C3AE8C3-DDE9-3085-0DF2-D698332961A1">
 <createdBy>Gustavo Padlipskas</createdBy>
 <createdTime>2022-04-30 12:08:42 UTC</createdTime>

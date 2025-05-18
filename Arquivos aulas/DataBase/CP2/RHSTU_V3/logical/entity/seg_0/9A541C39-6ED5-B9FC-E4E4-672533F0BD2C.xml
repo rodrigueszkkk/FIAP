@@ -15,15 +15,15 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_FORMA_PAGTO" id="751E1926-1496-5392-B960-D6ED25C7FF18">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-16 01:43:20 UTC</createdTime>
-<generatorID>C324EB54-6D6F-8134-7F12-43B15615EF1F</generatorID>
+<Attribute name="ID_CONSULTA_FORMA_PAGTO" id="0DD28A85-38CB-E49D-1652-A24622E855FE">
+<createdBy>kaiky</createdBy>
+<createdTime>2025-05-18 01:31:56 UTC</createdTime>
+<generatorID>74FF6F19-D704-5A9D-EA21-80D14AEDF295</generatorID>
 <ownerDesignName>RHSTU_V3</ownerDesignName>
 <engineerTo>
 <item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
 </engineerTo>
-<referedAttribute>4E218399-9591-8C64-43AD-E05DDEC8D090</referedAttribute>
+<referedAttribute>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -91,7 +91,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>751E1926-1496-5392-B960-D6ED25C7FF18</attributeRef>
+<attributeRef>0DD28A85-38CB-E49D-1652-A24622E855FE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
