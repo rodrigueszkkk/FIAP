@@ -86,7 +86,7 @@ REDE DE HOSPITAL SOMOS TODOS UM!</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="8A769596-8442-81C5-8E8B-9FFE4C17B2D7" otype="Entity" vid="7C2D53D1-D87C-C804-DC36-6A608C41A322">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1262" y="255" width="361" height="228"/>
+<bounds x="1277" y="255" width="361" height="228"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9A541C39-6ED5-B9FC-E4E4-672533F0BD2C" otype="Entity" vid="B59877B9-C8E0-DC9E-34C2-E0668936B3EF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -156,7 +156,7 @@ REDE DE HOSPITAL SOMOS TODOS UM!</comment>
 <lineWidth>1</lineWidth>
 <points>
 <point x="1726" y="283"/>
-<point x="1623" y="283"/>
+<point x="1638" y="283"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="44E5549C-C7C7-BF95-744C-5BB1486C3FD3" otype="Relation" vid_source="E7CB8064-F03F-E79F-57CB-E7C54541A6D8" vid_target="E9074CFF-D779-ACCC-D341-3C069407EB11">
@@ -256,7 +256,7 @@ REDE DE HOSPITAL SOMOS TODOS UM!</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1262" y="402"/>
+<point x="1277" y="402"/>
 <point x="1230" y="402"/>
 </points>
 </Connector>
