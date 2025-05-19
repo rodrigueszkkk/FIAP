@@ -1,0 +1,1631 @@
+{
+  "intents": [
+    {
+      "intent": "agendar_consulta",
+      "examples": [
+        {
+          "text": "agendar"
+        },
+        {
+          "text": "Agendar cardiologista"
+        },
+        {
+          "text": "agendar consulta"
+        },
+        {
+          "text": "Agende para mim um horário"
+        },
+        {
+          "text": "Como agendar exame?"
+        },
+        {
+          "text": "Consulta para hoje"
+        },
+        {
+          "text": "Dá para marcar uma consulta com o médico?"
+        },
+        {
+          "text": "definir consulta"
+        },
+        {
+          "text": "definir dia de consulta"
+        },
+        {
+          "text": "marcar"
+        },
+        {
+          "text": "marcar consulta"
+        },
+        {
+          "text": "Marcar consulta com especialista"
+        },
+        {
+          "text": "marcar dia de consulta"
+        },
+        {
+          "text": "Preciso agendar com urgência"
+        },
+        {
+          "text": "Quero marcar atendimento"
+        },
+        {
+          "text": "Quero marcar uma consulta"
+        },
+        {
+          "text": "Quero um horário disponível"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "buscar_exame",
+      "examples": [
+        {
+          "text": "Agendar exame"
+        },
+        {
+          "text": "Exame de imagem"
+        },
+        {
+          "text": "Exames disponíveis"
+        },
+        {
+          "text": "Exames laboratoriais?"
+        },
+        {
+          "text": "Onde encontro laboratório?"
+        },
+        {
+          "text": "Onde posso fazer raio-x?"
+        },
+        {
+          "text": "Preciso de um hemograma"
+        },
+        {
+          "text": "Quero fazer um exame de sangue"
+        },
+        {
+          "text": "Tenho que fazer ultrassom"
+        },
+        {
+          "text": "Tipos de exame?"
+        }
+      ]
+    },
+    {
+      "intent": "buscar_medico",
+      "examples": [
+        {
+          "text": "lista de medicos"
+        },
+        {
+          "text": "Médico de cabeça?"
+        },
+        {
+          "text": "Médico para coluna?"
+        },
+        {
+          "text": "medicos disponiveis"
+        },
+        {
+          "text": "Me indique um dermatologista"
+        },
+        {
+          "text": "Onde tem ginecologista?"
+        },
+        {
+          "text": "Posso consultar com um neurologista?"
+        },
+        {
+          "text": "Qual médico cuida dos ossos?"
+        },
+        {
+          "text": "Quem trata diabetes?"
+        },
+        {
+          "text": "Quero encontrar um cardiologista"
+        },
+        {
+          "text": "Quero um clínico geral"
+        },
+        {
+          "text": "Tem ortopedista disponível?"
+        }
+      ]
+    },
+    {
+      "intent": "buscar_tratamento",
+      "examples": [
+        {
+          "text": "Clínica de dor?"
+        },
+        {
+          "text": "Como funciona o tratamento de câncer?"
+        },
+        {
+          "text": "Onde tem terapia?"
+        },
+        {
+          "text": "Opções de reabilitação?"
+        },
+        {
+          "text": "Quero fazer acupuntura"
+        },
+        {
+          "text": "Quero saber sobre hemodiálise"
+        },
+        {
+          "text": "Tem fisioterapia?"
+        },
+        {
+          "text": "Tem homeopatia?"
+        },
+        {
+          "text": "tratamento"
+        },
+        {
+          "text": "Tratamento com psicólogo"
+        },
+        {
+          "text": "Tratamento para coluna"
+        }
+      ]
+    },
+    {
+      "intent": "cancelar_agendamento",
+      "examples": [
+        {
+          "text": "Cancelar horário marcado"
+        },
+        {
+          "text": "Cancele o agendamento"
+        },
+        {
+          "text": "Como cancelo a consulta?"
+        },
+        {
+          "text": "Consulta não será possível"
+        },
+        {
+          "text": "Desmarcar exame"
+        },
+        {
+          "text": "Exame desmarcar"
+        },
+        {
+          "text": "Pode cancelar para mim?"
+        },
+        {
+          "text": "Preciso cancelar atendimento"
+        },
+        {
+          "text": "Quero cancelar minha consulta"
+        },
+        {
+          "text": "Quero desmarcar"
+        }
+      ]
+    },
+    {
+      "intent": "convenios_aceitos",
+      "examples": [
+        {
+          "text": "Aceitam plano da Amil?"
+        },
+        {
+          "text": "Convênio SulAmérica funciona aí?"
+        },
+        {
+          "text": "Lista de convênios?"
+        },
+        {
+          "text": "Meu convênio é aceito?"
+        },
+        {
+          "text": "Meu plano funciona?"
+        },
+        {
+          "text": "Plano aceito"
+        },
+        {
+          "text": "Planos compatíveis?"
+        },
+        {
+          "text": "Quais planos vocês aceitam?"
+        },
+        {
+          "text": "Quais são os convênios disponíveis?"
+        },
+        {
+          "text": "Tem Unimed?"
+        }
+      ]
+    },
+    {
+      "intent": "elogios_reclamacoes",
+      "examples": [
+        {
+          "text": "Atendimento excelente!"
+        },
+        {
+          "text": "Avaliação da clínica"
+        },
+        {
+          "text": "Como reclamo?"
+        },
+        {
+          "text": "Fui mal atendido"
+        },
+        {
+          "text": "Gostei muito do atendimento"
+        },
+        {
+          "text": "Onde faço sugestão?"
+        },
+        {
+          "text": "Posso deixar feedback?"
+        },
+        {
+          "text": "Quero fazer uma reclamação"
+        },
+        {
+          "text": "Reclamação sobre médico"
+        },
+        {
+          "text": "Tenho um elogio"
+        }
+      ]
+    },
+    {
+      "intent": "fale_com_atendente",
+      "examples": [
+        {
+          "text": "Ajuda humana?"
+        },
+        {
+          "text": "Atendimento com pessoa"
+        },
+        {
+          "text": "Chat com atendente?"
+        },
+        {
+          "text": "Falar com operador"
+        },
+        {
+          "text": "Me conecta com alguém"
+        },
+        {
+          "text": "Pode me transferir para humano?"
+        },
+        {
+          "text": "Preciso de ajuda de alguém"
+        },
+        {
+          "text": "Quero falar com atendente"
+        },
+        {
+          "text": "Suporte ao vivo"
+        },
+        {
+          "text": "Tem atendimento humano?"
+        }
+      ]
+    },
+    {
+      "intent": "horarios_atendimento",
+      "examples": [
+        {
+          "text": "Atende de domingo?"
+        },
+        {
+          "text": "Atendimento de emergência?"
+        },
+        {
+          "text": "Clínica 24 horas?"
+        },
+        {
+          "text": "Funcionam aos sábados?"
+        },
+        {
+          "text": "Horários disponíveis?"
+        },
+        {
+          "text": "Qual o horário de atendimento?"
+        },
+        {
+          "text": "Que dias funcionam?"
+        },
+        {
+          "text": "Que horas abrem?"
+        },
+        {
+          "text": "Tem atendimento noturno?"
+        },
+        {
+          "text": "Turno da tarde atende?"
+        }
+      ]
+    },
+    {
+      "intent": "informacoes_clinica",
+      "examples": [
+        {
+          "text": "Como chego aí?"
+        },
+        {
+          "text": "Informações da unidade"
+        },
+        {
+          "text": "Localização da unidade"
+        },
+        {
+          "text": "Onde fica a clínica?"
+        },
+        {
+          "text": "Qual o endereço?"
+        },
+        {
+          "text": "Qual o nome da clínica?"
+        },
+        {
+          "text": "Qual o nome da clínica?Qual o nome da clínica?"
+        },
+        {
+          "text": "Qual telefone da clínica?"
+        },
+        {
+          "text": "Tem estacionamento?"
+        },
+        {
+          "text": "Vocês têm WhatsApp?"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "boolean",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "n",
+            "nao",
+            "nn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "ok",
+            "s",
+            "sim",
+            "sm"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cadastro",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+.)+[A-Za-z]{2,}\\b"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "nome",
+          "patterns": [
+            "/^[a-z ,.'-]+$/i"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "telefone",
+          "patterns": [
+            "^\\([1-9]{2}\\) (?:[2-8]|9[0-9])[0-9]{3}\\-[0-9]{4}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+.)+[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "especialidade_medica",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cardiologista",
+          "synonyms": [
+            "coracao",
+            "coração",
+            "médico do coração"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cirurgia geral",
+          "synonyms": [
+            "apendicite",
+            "cirurgia",
+            "geral"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "neurologista",
+          "synonyms": [
+            "Cerebro",
+            "Medico de cabeca",
+            "Mente",
+            "Neuro",
+            "neurologista"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ortopedista",
+          "synonyms": [
+            "coluna",
+            "dor na coluna",
+            "medico do ossos",
+            "orto",
+            "ossos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "plástica",
+          "synonyms": [
+            "estetica",
+            "plastica"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "exame",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hemograma",
+          "synonyms": [
+            "Exame de sangue",
+            "Hemograma"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "raio_x",
+          "synonyms": [
+            "radiografia",
+            "raio",
+            "raio x"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ressonancia",
+          "synonyms": [
+            "ressonancia",
+            "ressonancia magnetica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tomografia",
+          "synonyms": [
+            "tomografia",
+            "tomografia computadorizada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ultrassom",
+          "synonyms": [
+            "ecografia",
+            "Exame de imagem",
+            "ultrassom"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "medicos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Callie Torres",
+          "synonyms": [
+            "callie",
+            "Callie Torres",
+            "torres"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cristina Yang",
+          "synonyms": [
+            "cristina",
+            "Cristina Yang",
+            "yang"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Derek Shepherd",
+          "synonyms": [
+            "derek",
+            "Derek Shepherd",
+            "shepherd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mark Sloan",
+          "synonyms": [
+            "mark",
+            "Mark Sloan",
+            "sloan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Meredith Grey",
+          "synonyms": [
+            "grey",
+            "meredith",
+            "Meredith Grey"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "nome",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nome",
+          "synonyms": [
+            "nome"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "plano_saude",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "amil",
+          "synonyms": [
+            "amil",
+            "Plano amil"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bradesco",
+          "synonyms": [
+            "bradesco",
+            "Plano bradesco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hapvida",
+          "synonyms": [
+            "hapvida",
+            "Plano hapvida"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sulamerica",
+          "synonyms": [
+            "Plano sulamerica",
+            "sulamerica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "unimed",
+          "synonyms": [
+            "plano unimed",
+            "unimed"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sistema_entidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sys-date",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "telefone",
+          "patterns": [
+            "^[0-9]{2}-([0-9]{8}|[0-9]{9})"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "tratamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "acupuntura",
+          "synonyms": [
+            "acupuntura",
+            "agulhada",
+            "agulhas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fisioterapia",
+          "synonyms": [
+            "fisio",
+            "fisioterapia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hemodialise",
+          "synonyms": [
+            "dialise",
+            "hemodialise",
+            "rim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "psicoterapia",
+          "synonyms": [
+            "maluco",
+            "psico",
+            "psicoterapia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "reabilitacao",
+          "synonyms": [
+            "reabilitacao",
+            "reabilitação"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "usuario",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como posso te ajudar? \n\n- Exames\n- Informações"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "dia": "<? @sys.date ?>"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "fim - copy 1 - copy 1",
+      "output": {},
+      "parent": "node_2_1746225954877",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "",
+      "dialog_node": "node_11_1746237526879"
+    },
+    {
+      "type": "standard",
+      "title": "Atendimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕒 Atendimento 24h\n\nA Clínica Todos Contra o Mal funciona 24 horas por dia, todos os dias da semana.\n\nPara mais informações, entre em contato via WhatsApp ou ligação pelo número:\n📞 +55 11 92221-9321.\n\nEstamos sempre prontos para te atender!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#horarios_atendimento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1746225882835",
+      "previous_sibling": "node_3_1746225940817"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🏥 Tratamentos Disponíveis\n\nEsses são alguns dos tratamentos oferecidos em nosso hospital:\n\n- Reabilitação\n- Fisioterapia\n- Hemodiálise\n- Psicoterapia\n- Acupuntura"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1746226591136",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1746225565999"
+      },
+      "conditions": "@boolean:sim",
+      "dialog_node": "node_1_1746226728848"
+    },
+    {
+      "type": "standard",
+      "title": "nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Infelizmente, não realizamos este tipo de exame, gostaria de ver uma lista de exames?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1746225386020",
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1746227310588",
+      "previous_sibling": "node_2_1746233914032"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {},
+      "parent": "node_3_1746226591136",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@boolean:não",
+      "dialog_node": "node_1_1746234663844",
+      "previous_sibling": "node_1_1746226728848"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1746225653755",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1746234754610"
+      },
+      "conditions": "@boolean:sim",
+      "dialog_node": "node_1_1746236720922"
+    },
+    {
+      "type": "standard",
+      "title": "Agendamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gostaria de Agendar sua consulta para:\nExame: $exame\nTratamento: $tratamento\nMédico: $medicos\n\nCorreto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#agendar_consulta",
+      "dialog_node": "node_1_1746236822338",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "convenios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seu Plano de saúde atual?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#convenios_aceitos",
+      "dialog_node": "node_2_1746225793418",
+      "previous_sibling": "node_6_1746225565999"
+    },
+    {
+      "type": "standard",
+      "title": "sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu plano $plano_saude é aceito em nossos Hospitais ;)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1746225793418",
+      "context": {
+        "plano_saude": "<? @plano_saude ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1746236822338"
+      },
+      "conditions": "@plano_saude",
+      "dialog_node": "node_2_1746225822346"
+    },
+    {
+      "type": "standard",
+      "title": "ajuda humana",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "❌ Cancelamento via WhatsApp\n\nPara cancelar seu agendamento de forma rápida, entre em contato diretamente pelo nosso WhatsApp:\n📞 +55 11 92221-9321\n\nNossa equipe está disponível para te atender!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#fale_com_atendente",
+      "dialog_node": "node_2_1746225954877",
+      "previous_sibling": "node_1_1746225882835"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, o exame escolhido seria: $exame?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1746225386020",
+      "context": {
+        "exame": "<? @exame ?>"
+      },
+      "conditions": "@exame",
+      "dialog_node": "node_2_1746233914032"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Veja nossa lista de médicos:\n\n🩺 Corpo Clínico – Clínica Todos Contra o Mal\nConheça alguns dos nossos profissionais e suas especialidades:\n\nDra. Callie Torres – Ortopedia e Cirurgia Ortopédica\nDr. Derek Shepherd – Neurocirurgia\nDr. Mark Sloan – Cirurgia Plástica e Reconstrutora\nDra. Meredith Grey – Cirurgia Geral\nDra. Cristina Yang – Cirurgia Cardiotorácica"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1746234754610",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1746234754610"
+      },
+      "conditions": "@boolean:não",
+      "dialog_node": "node_2_1746234861854",
+      "previous_sibling": "node_9_1746235036760"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, o tratamento escolhido seria: $tratamento ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1746225565999",
+      "context": {
+        "tratamento": "<? @tratamento ?>"
+      },
+      "conditions": "@tratamento",
+      "dialog_node": "node_3_1746225653755"
+    },
+    {
+      "type": "standard",
+      "title": "Informações",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📍 Informações da Clínica\n\nPara chegar até a \"Clínica Todos Contra o Mal\", siga as informações abaixo:\n\nEndereço: Rua Alves Comendador, 3001, São Paulo.\nTelefone: +55 11 92221-9321 (Disponível também via WhatsApp).\nEstacionamento: Temos vagas disponíveis e auxílio de estacionamento lateral."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#informacoes_clinica",
+      "dialog_node": "node_3_1746225940817",
+      "previous_sibling": "node_2_1746225793418"
+    },
+    {
+      "type": "standard",
+      "title": "não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Infelizmente, seu plano de saúde atual não faz jus aos nossos parceiros. Gostaria de ver uma lista de planos aceitos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1746225793418",
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1746226358034",
+      "previous_sibling": "node_2_1746225822346"
+    },
+    {
+      "type": "standard",
+      "title": "nao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Infelizmente, não realizamos este tipo de atendimento: $tratamento . Gostaria de ver a lista de tratamentos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1746225565999",
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1746226591136",
+      "previous_sibling": "node_3_1746225653755"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1746227310588",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@boolean:não",
+      "dialog_node": "node_3_1746234336984",
+      "previous_sibling": "node_5_1746227350708"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {},
+      "parent": "node_3_1746226358034",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@boolean:não",
+      "dialog_node": "node_3_1746234687627",
+      "previous_sibling": "node_4_1746227452851"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1746235036760",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1746225793418"
+      },
+      "conditions": "@boolean:sim",
+      "dialog_node": "node_3_1746238051852"
+    },
+    {
+      "type": "standard",
+      "title": "cancelamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja encerrar o chat?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cancelar_agendamento",
+      "dialog_node": "node_4_1746225994615",
+      "previous_sibling": "node_2_1746225954877"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💳 Planos de Saúde Atendidos\n\nA Clínica Todos Contra o Mal atende aos principais planos de saúde. Confira alguns deles:\n\nUnimed\nAmil\nSulAmérica\nBradesco Saúde\nHapvida"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1746226358034",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1746225793418"
+      },
+      "conditions": "@boolean:sim",
+      "dialog_node": "node_4_1746227452851"
+    },
+    {
+      "type": "standard",
+      "title": "Medicos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual médico escolhido?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#buscar_medico",
+      "dialog_node": "node_4_1746234754610",
+      "previous_sibling": "node_1_1746236822338"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendado com sucesso! Obrigado. ;)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1746236822338",
+      "conditions": "@boolean:sim",
+      "dialog_node": "node_4_1746236905333"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🧪 Exames Disponíveis\n\nRealizamos diversos exames em nosso hospital. Confira alguns deles:\n\nHemograma\nRaio-X\nTomografia\nRessonância\nUltrassom"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1746227310588",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1746225386020"
+      },
+      "conditions": "@boolean:sim",
+      "dialog_node": "node_5_1746227350708"
+    },
+    {
+      "type": "standard",
+      "title": "fim",
+      "output": {},
+      "parent": "node_1_1746236822338",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@boolean:não",
+      "dialog_node": "node_5_1746237140118",
+      "previous_sibling": "node_4_1746236905333"
+    },
+    {
+      "type": "standard",
+      "title": "tratamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual tratamento você procura?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#buscar_tratamento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1746225565999",
+      "previous_sibling": "node_9_1746225386020"
+    },
+    {
+      "type": "standard",
+      "title": "fim - copy 1",
+      "output": {},
+      "parent": "node_4_1746225994615",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@boolean:sim",
+      "dialog_node": "node_7_1746237284811"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1746225994615",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1746225954877"
+      },
+      "conditions": "@boolean:não",
+      "dialog_node": "node_7_1746237345716",
+      "previous_sibling": "node_7_1746237284811"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1746233914032",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1746225565999"
+      },
+      "conditions": "@boolean:sim",
+      "dialog_node": "node_8_1746236583356"
+    },
+    {
+      "type": "standard",
+      "title": "exame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o exame escolhido?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#buscar_exame",
+      "dialog_node": "node_9_1746225386020",
+      "previous_sibling": "node_4_1746234754610"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O médico escolhido é: $medicos ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1746234754610",
+      "context": {
+        "medicos": "<? @medicos ?>"
+      },
+      "conditions": "@medicos",
+      "dialog_node": "node_9_1746235036760"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O chat será encerrado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<? context.clear ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1746237526879",
+      "conditions": "",
+      "dialog_node": "response_12_1746237526880"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O chat será encerrado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<? context.clear ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1746234663844",
+      "conditions": "@boolean:não",
+      "dialog_node": "response_2_1746234663844"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O chat será encerrado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<? context.clear ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1746234687627",
+      "conditions": "@boolean:não",
+      "dialog_node": "response_4_1746234687628"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O chat será encerrado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<? context.clear ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1746237140118",
+      "conditions": "@boolean:não",
+      "dialog_node": "response_6_1746237140119"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O chat será encerrado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<? context.clear ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1746234336984",
+      "conditions": "@boolean:não",
+      "dialog_node": "response_8_1746234419741"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O chat será encerrado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<? context.clear ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1746237284811",
+      "conditions": "@boolean:sim",
+      "dialog_node": "response_8_1746237284812"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "HC-dialog"
+}
