@@ -15,7 +15,7 @@ def cadastra_pergunta(lista: list):
         # coletar altenativas
         alternativas = []
         i = 1
-        aux = input('alt ' + i + ': ')
+        aux = input('alt ', + i, + ": ")
         while aux != "":
             alternativas.append(aux)
             i =+ 1
