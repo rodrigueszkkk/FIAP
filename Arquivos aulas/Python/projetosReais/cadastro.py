@@ -13,17 +13,17 @@ def cadastro():
     name = str(input('Digite a descricao do produto: '))
     cod = int(input('digite o codigo do produto: ')) 
 
-    produtos.append(name)
-    produtos.append(cod)
+    produtos.append(f'Produto: {name} \n Codigo: {cod} \n')
+
 
 
 def lista():
     print('=====LISTA DE PRODUTOS JA CADASTRADOS===== \n')
 
-
     for i in produtos:
         print (i)
 
+    
 
 produtos = []
 opcao = 0
@@ -35,5 +35,6 @@ while opcao != 3:
     if opcao == 2:
         lista()
     if opcao == 3:
+        print('Saindo do sistema')
         exit
 
