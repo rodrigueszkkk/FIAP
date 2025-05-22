@@ -16,8 +16,9 @@ document.getElementById('form').addEventListener('submit', function(e){
         alert('foi')
     }
 
+    if (nome && email){
     const mensagemSucesso = document.getElementById('certo')
-
-    mensagemSucesso.style.display = 'block'
+}
+    
 
 })
