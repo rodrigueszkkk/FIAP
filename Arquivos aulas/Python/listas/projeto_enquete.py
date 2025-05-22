@@ -15,31 +15,59 @@ def cadastra_pergunta(lista: list):
         # coletar altenativas
         alternativas = []
         i = 1
-        aux = input('alt ', + i, + ": ")
+        aux = input(f'alt {i} :')
         while aux != "":
             alternativas.append(aux)
-            i =+ 1
-            aux = input('alt ' + i + ": ")
+            i = i + 1
+            aux = input(f'alt {i} :')
 
     lista.append(num)
     lista.append(enun)
     lista.append(tipo)
     lista.append(alternativas)
 
+def monta_alternativas(opcoes: list) -> str:
+    resp = ''
+    letras = 'abcdefghijk'
+    i = 0
+    while i < len(opcoes):
+        resp = resp + f'\t{letras[i]}) {opcoes[i]}\n'
+        i = i + 1
+    return resp
+
+
+
+def aplica_enquete(perguntas: list, respostas: list):
+    i = 0
+    while i < len(perguntas):
+        print(f'{perguntas[i]}) {perguntas[i+1]}')
+        if perguntas[i+2] != 'aberta':
+            info = monta_alternativas(perguntas[i+3])
+            print(info)
+
+        resp = input('Respo: ')
+        respostas.append(resp)
+        i =+ 4    
+
+    print(f'')
+
+
+
+
 # INICIO PROGRAMA (main)
 
 lista = []
-
+respostas = []
 opcao = 0
 while opcao != 4:
     opcao = menu()
     if opcao == 1:
         cadastra_pergunta(lista)
     elif opcao == 2:
-        print('Visualiza a pergunta')
+        print(lista)
     elif opcao == 3:
         print('Apagar pergunta')
     elif opcao == 4:
-        print('Saindo do sitema')
+        aplica_enquete(lista, respostas)
     else:
         print('Opcao Invalida')
