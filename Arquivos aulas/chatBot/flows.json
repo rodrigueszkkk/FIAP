@@ -1,0 +1,45 @@
+[
+    {
+        "id": "b44147ab0c1754b1",
+        "type": "telegram receiver",
+        "z": "5321319e788edbca",
+        "name": "",
+        "bot": "7c38bd979b338d50",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 170,
+        "y": 340,
+        "wires": [
+            [
+                "5e236d57e69fecbe",
+                "0e427dd569b26644"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7c38bd979b338d50",
+        "type": "telegram bot",
+        "botname": "FiascosDotCom_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    }
+]

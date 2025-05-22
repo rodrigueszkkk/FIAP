@@ -3,7 +3,7 @@ def menu() -> int:
     print('1- Cadastrar Produto')
     print('2- Ver Produtos Cadastrados')
     print('3- Encerrar Programa')
-    return int(input('\n Qual opcao deseja? '))
+    return int(input('\n Qual opcao deseja? \n'))
 
 
 cadastros = ()
@@ -22,6 +22,7 @@ def lista():
 
     for i in produtos:
         print (i)
+    
 
     
 
