@@ -7,6 +7,17 @@ public class Produto {
 
 
 
+    public Produto(int codigo, String descricao, double preco) {
+        this.codigo = codigo;
+        this.descricao = descricao;
+        this.preco = preco;
+    }
+
+    @Override
+    public String toString() {
+       return "\n Código: " + getCodigo() + "\n Descrição: " + getDescricao() + "\n Preço: " + getPreco();
+    }
+
     public double calcularDesconto(double porcentagem){
         return preco - preco * (porcentagem/100);
 

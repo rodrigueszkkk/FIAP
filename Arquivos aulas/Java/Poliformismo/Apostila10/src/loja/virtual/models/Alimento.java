@@ -5,15 +5,26 @@ import java.time.LocalDate;
 public class Alimento extends Produto{
     private LocalDate vencimento;
 
+    public Alimento(int codigo, String descricao, double preco, LocalDate vencimento) {
+        super(codigo, descricao, preco);
+        this.vencimento = vencimento;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n Vencimento " + getVencimento();
+    }
+
     @Override // modificando o metodo pai
     public double calcularDesconto() {
         return calcularDesconto(15);
     }
 
-    public double calcularDesconto(String cupom){
+    public double calcularDesconto(String cupom) {
         if (cupom.equals("FIAP40"))
-            return calcularDesconto(40);
-        else return getPreco();
+            return super.calcularDesconto(40);
+        return super.calcularDesconto(cupom);
+
     }
 
     // modificando o metodo pai
