@@ -10,16 +10,10 @@ public class Alimento extends Produto{
         return calcularDesconto(15);
     }
 
-    @Override
     public double calcularDesconto(String cupom){
-        if (cupom.equals("FIAP10")){
-            return calcularDesconto(10);
-        } else if (cupom.equals("FIAP20")) {
-            return calcularDesconto(20);
-        } else if (cupom.equals("FIAP40")) {
+        if (cupom.equals("FIAP40"))
             return calcularDesconto(40);
-        } else return getPreco();
-
+        else return getPreco();
     }
 
     // modificando o metodo pai

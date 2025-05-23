@@ -12,9 +12,14 @@ public class Main {
         Produto produto = new Produto();
 
         produto.setPreco(100);
-        System.out.println(produto.calcularDesconto("FIAP10"));
+        System.out.println(produto.calcularDesconto(""));
 
         alimento.setPreco(50);
-        System.out.println(alimento.calcularDesconto("FIAP40"));
+        System.out.println(alimento.calcularDesconto("FIAP20"));
+
+
+        Produto churros = new Alimento();
+
+
     }
 }
