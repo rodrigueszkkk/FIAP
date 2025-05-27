@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema PDV</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema PDV</h1>
+
+        <form action="/cadastrar" method="post">
+            <label>Nome do Produto:</label>
+            <input type="text" name="nome" required>
+
+            <label>Código do Produto:</label>
+            <input type="number" name="codigo" required>
+
+            <button type="submit">Cadastrar Produto</button>
+        </form>
+
+        {% if produtos %}
+        <h2>Produtos Cadastrados</h2>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Código</th>
+            </tr>
+            {% for produto in produtos %}
+            <tr>
+                <td>{{ produto.nome }}</td>
+                <td>{{ produto.codigo }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+    </div>
+</body>
+</html>
