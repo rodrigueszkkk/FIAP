@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}Vendas - PDV{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>CAIXA LIVRE</h1>
+
+    <div class="sales-layout">
+        <div class="product-search">
+            <h2>Buscar Produto</h2>
+            <form method="POST">
+                <div class="form-group">
+                    <label for="search_term">Nome ou Código:</label>
+                    <input type="text" id="search_term" name="search_term" placeholder="Pesquisar por nome ou código">
+                </div>
+                <button type="submit" name="search_product" class="btn btn-info btn-block">Buscar</button>
+            </form>
+
+            {% if produtos_encontrados %}
+                <h3 style="margin-top: 25px;">Resultados da Busca:</h3>
+                <table class="search-results-table">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Código</th>
+                            <th>Preço</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for produto in produtos_encontrados %}
+                            <tr>
+                                <td>{{ produto[1] }}</td> {# Nome #}
+                                <td>{{ produto[2] }}</td> {# Código #}
+                                <td>R$ {{ "%.2f" | format(produto[3]) }}</td> {# Preço #}
+                                <td>
+                                    <form method="POST" style="margin: 0; display: inline;">
+                                        <input type="hidden" name="codigo_produto_add" value="{{ produto[2] }}">
+                                        <button type="submit" name="add_to_cart" class="btn btn-sm btn-primary">Add</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
+        </div>
+
+        <div class="cart-section">
+            <h2>Carrinho</h2>
+            {% if carrinho %}
+                {% for item in carrinho %}
+                    <div class="cart-item">
+                        <span>{{ item.quantidade }}x {{ item.nome }} (Cód: {{ item.codigo }})</span>
+                        <span>R$ {{ "%.2f" | format(item.subtotal) }}</span>
+                    </div>
+                {% endfor %}
+                <div class="cart-total">
+                    Total: R$ {{ "%.2f" | format(total_carrinho) }}
+                </div>
+                <form method="POST" style="margin-top: 20px;">
+                    <button type="submit" name="finish_sale" class="btn btn-success btn-block">Finalizar Venda</button>
+                    <button type="submit" name="clear_cart" class="btn btn-danger btn-block" style="margin-top: 10px;">Limpar Carrinho</button>
+                </form>
+            {% else %}
+                <p>Carrinho vazio.</p>
+            {% endif %}
+        </div>
+    </div>
+    
+    <a href="{{ url_for('logout') }}" class="btn btn-secondary btn-block" style="margin-top: 30px;">Sair da Venda</a>
+</div>
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Gerenciar Produtos - PDV{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Gerenciar Produtos</h1>
+
+    <h2>Cadastrar Novo Produto</h2>
+    <form method="POST">
+        <div class="form-group">
+            <label for="nome">Nome do Produto:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div class="form-group">
+            <label for="codigo">Código do Produto:</label>
+            <input type="number" id="codigo" name="codigo" required>
+        </div>
+
+        <div class="form-group">
+            <label for="preco">Preço:</label>
+            <input type="number" id="preco" name="preco" step="0.01" required>
+        </div>
+
+        <button type="submit" class="btn btn-success btn-block">Cadastrar</button>
+    </form>
+
+    <h2>Produtos Cadastrados</h2>
+    {% if produtos %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Código</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for produto in produtos %}
+                    <tr>
+                        <td>{{ produto[1] }}</td> {# produto[1] é o nome #}
+                        <td>{{ produto[2] }}</td> {# produto[2] é o código #}
+                        <td>R$ {{ "%.2f" | format(produto[3]) }}</td> {# produto[3] é o preço #}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>Nenhum produto cadastrado.</p>
+    {% endif %}
+    <a href="{{ url_for('admin_dashboard') }}" class="btn btn-secondary btn-block" style="margin-top: 20px;">Voltar para o Painel Administrativo</a>
+</div>
+{% endblock %}

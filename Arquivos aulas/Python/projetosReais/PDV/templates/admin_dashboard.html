@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Dashboard - PDV{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Painel de Administração</h1>
+
+    <div class="menu-grid">
+        <a href="{{ url_for('produtos') }}" class="menu-item">Cadastrar/Ver Produtos</a>
+        <a href="{{ url_for('vendas') }}" class="menu-item">Abrir Vendas</a>
+        <a href="{{ url_for('logout') }}" class="menu-item btn-danger">Sair do Sistema</a>
+    </div>
+</div>
+{% endblock %}
